@@ -2,9 +2,6 @@
 # Introduction
 **`A Multilingual Sentiment Analysis Model based on Continual Learning`**, Data Analysis and Knowledge Discovery 2023  
 
-****
-<p align="center">
-</p>
 
 **`Abstract`**：`[Objective]` This study aims to address the performance degradation of multilingual 
 models in handling new language tasks due to catastrophic forgetting. `[Methods]` A continual 
@@ -19,6 +16,7 @@ validation is needed for the generalization ability of other languages. `[Conclu
 proposed model can alleviate catastrophic forgetting in multilingual sentiment analysis tasks and 
 achieve continual learning on multilingual datasets.
 
+.<div align=center><img src="URL" width="300" height="450" /></div>
 
 # Environment
 The code is based on Python 3.7.11 and PyTorch 1.11.0 version. The code is developed and tested using one NVIDIA TESLA T4.
@@ -31,6 +29,17 @@ The code is based on Python 3.7.11 and PyTorch 1.11.0 version. The code is devel
 Taking XLM model as an example, please use the appropriate linguistic datasets and models when training
 
 # Bilingual
+In this paper, we adopt two language training sequences: English-French-Chinese, and Chinese-French-English. Specific experimental results are detailed in the paper.  
+**Note:** Under bilingual training, whether or not to add a continual learning method produced different results for the experiment, thus requiring separate training. 
+
+* XLM_CE.py (Taking English-French-Chinese sequence as an example)
+* testrun2.py
+* XLM_EWC2.py
 
 # Trilingual
+Same as Bilingual Training above
+
+* XLM_CEF.py (Taking English-French-Chinese sequence as an example)
+* testrun3.py
+* XLM_EWC3.py
   
