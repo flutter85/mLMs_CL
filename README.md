@@ -16,7 +16,7 @@ validation is needed for the generalization ability of other languages. `[Conclu
 proposed model can alleviate catastrophic forgetting in multilingual sentiment analysis tasks and 
 achieve continual learning on multilingual datasets.
 
-.<div align=center><img src="URL" width="300" height="450" /></div>
+
 
 # Environment
 The code is based on Python 3.7.11 and PyTorch 1.11.0 version. The code is developed and tested using one NVIDIA TESLA T4.
