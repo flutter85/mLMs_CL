@@ -23,10 +23,11 @@ The code is based on Python 3.7.11 and PyTorch 1.11.0 version. The code is devel
 
 # Data_Preprocessing
 * Data should save in: `/data/${dataset}/train/*.txt`, `/data/${dataset}/valid/*.txt`, `/data/${dataset}/test/*.txt`.
-* The preprocessed data are available in [data_filter](https://github.com/flutter85/mLMs_CL/tree/main/data_filter "悬停显示")
+* The preprocessed data are available in [data_filter](https://github.com/flutter85/mLMs_CL/tree/main/data_filter "悬停显示").
 
 # Monolingual
-Taking XLM model as an example, please use the appropriate linguistic datasets and models when training
+Taking XLM model as an example, please use the appropriate linguistic datasets and models when training.
+* XLM_C.py
 
 # Bilingual
 In this paper, we adopt two language training sequences: English-French-Chinese, and Chinese-French-English. Specific experimental results are detailed in the paper.  
