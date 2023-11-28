@@ -27,20 +27,20 @@ The code is based on Python 3.7.11 and PyTorch 1.11.0 version. The code is devel
 
 # Monolingual
 Taking XLM model as an example, please use the appropriate linguistic datasets and models when training.
-* XLM_C.py
+* `XLM_C.py`
 
 # Bilingual
 In this paper, we adopt two language training sequences: English-French-Chinese, and Chinese-French-English. Specific experimental results are detailed in the paper.  
 **Note:** Under bilingual training, whether or not to add a continual learning method produced different results for the experiment, thus requiring separate training. 
 
-* XLM_CE.py (Taking English-French-Chinese sequence as an example)
-* testrun2.py
-* XLM_EWC2.py
+* `XLM_CE.py` (Taking English-French-Chinese sequence as an example)
+* `testrun2.py`
+* `XLM_EWC2.py`
 
 # Trilingual
 Same as Bilingual Training above
 
-* XLM_CEF.py (Taking English-French-Chinese sequence as an example)
-* testrun3.py
-* XLM_EWC3.py
+* `XLM_CEF.py` (Taking English-French-Chinese sequence as an example)
+* `testrun3.py`
+* `XLM_EWC3.py`
   
